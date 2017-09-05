@@ -1,0 +1,52 @@
+.calculator-container {
+  margin: 3em;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  border: 1px solid gray;
+}
+
+.card-row__nickname {
+  display: flex;
+  flex: 1 1 5em;
+
+  margin: .5em 1em;
+  font-size: 18px;
+}
+
+.card-row__balance {
+  display: flex;
+  flex: 1 1 4em;
+
+  margin: .5em 1em;
+  font-size: 16px;
+}
+
+.card-row__apr {
+  display: flex;
+  flex: 1 1 4em;
+
+  margin: .5em 1em;
+  font-size: 16px;
+}
+
+.card-row__min-payment {
+  display: flex;
+  flex: 1 1 4em;
+
+  margin: .5em 1em;
+  font-size: 16px;
+}
+
+.card-row__payments-remaining {
+  display: flex;
+  flex: 1 1 4em;
+
+  margin: .5em 1em;
+  font-size: 16px;
+}
