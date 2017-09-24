@@ -50,3 +50,33 @@
   margin: .5em 1em;
   font-size: 16px;
 }
+
+.calendar-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex: 1 1 auto;
+
+  border: 1px solid gray;
+
+  overflow-x: auto;
+}
+
+.calendar-row__spacer {
+  display: flex;
+  flex: 0 0 auto;
+  width: 180px;
+  /* Add box shadow on right side */
+}
+
+.calendar-row__cell-container {
+  display: flex;
+  overflow-x: auto;
+  /* Adjust scroll bar position */
+}
+
+.payment-cell {
+  display: flex;
+  flex-direction: column;
+  margin: .5em 1.5em;
+}

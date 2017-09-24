@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-// import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-
-// import actions from './actions';
 import cardState from './selectors';
-
 import CardRow from './components/CardRow';
 import TotalsRow from './components/TotalsRow';
-
 import './PaydownCalculator.css';
 
 
